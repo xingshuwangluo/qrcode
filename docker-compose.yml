@@ -1,0 +1,9 @@
+version: '2'
+services:
+  pconfig:
+    build: .
+    image: qrcode:master
+    privileged: false
+    restart: unless-stopped
+    ports:
+    - 9035:80

@@ -1,0 +1,6 @@
+/nbproject/private/
+/vendor/
+.env
+*.volt.php
+.phalcon
+/.idea/

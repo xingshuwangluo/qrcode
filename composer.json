@@ -1,0 +1,12 @@
+{
+    "require": {
+        "vlucas/phpdotenv": "^3.3",
+        "symfony/var-dumper": "^4.3",
+        "symfony/serializer": "^4.3",
+        "symfony/yaml": "^4.3",
+        "matomo/ini": "^2.0"
+    },
+    "require-dev": {
+        "phalcon/ide-stubs": "^3.4"
+    }
+}
