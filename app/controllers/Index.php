@@ -50,6 +50,18 @@ class Index extends Controller
     }
 
 
+    public function list1()
+    {
+        $list = Qrcode::find([
+            'limit' => 10,
+            'order' => 'id desc',
+        ]);
+
+        $this->view->setVar('list', $list);
+        return $this->view->render('index', 'list');
+    }
+
+
 
 
 

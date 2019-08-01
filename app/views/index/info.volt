@@ -8,9 +8,10 @@
     <script src="/js/qrcode.min.js"></script>
 </head>
 <body>
-详情
+<a href="/">首页</a>
+<br>
 
-内容:
+详情 内容:
 <br>
 
 <textarea rows="30" cols="100" name="yuan">{{ info.yuan }}</textarea>
